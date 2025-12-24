@@ -55,18 +55,24 @@
 <section id="achievements" class="section">
   <section id="gallery" class="section">
   <h2>OSIS Gallery</h2>
-  <p class="muted">Moments, programs, and leadership activities</p>
+  <p class="muted">Activities • Programs • Achievements</p>
 
-  <div class="gallery">
-    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" alt="OSIS Activity">
-    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="Leadership Program">
-    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Teamwork">
-    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Student Event">
-    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Presentation">
-    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b" alt="School Activity">
+  <div class="gallery-filter">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="program">Program</button>
+    <button data-filter="event">Event</button>
+    <button data-filter="achievement">Achievement</button>
+  </div>
+
+  <div class="gallery pro">
+    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" data-cat="program" alt="Program OSIS">
+    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" data-cat="event" alt="Event OSIS">
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" data-cat="program" alt="Leadership">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" data-cat="achievement" alt="Achievement">
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" data-cat="event" alt="Presentation">
+    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b" data-cat="achievement" alt="Award">
   </div>
 </section>
-
   <h2>Achievements</h2>
   <ul class="list">
     <li>🏆 National Student Leadership Award</li>
